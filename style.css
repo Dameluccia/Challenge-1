@@ -1,0 +1,53 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.clear{
+  clear: both;
+}
+main{
+  width: 1020px;
+  margin: auto;
+  font-family: "Josefin Sans", Bitter;
+}
+nav{
+    text-align: center;
+    background-color: black;
+}
+nav li{
+
+  list-style-type: none;
+  display: inline-block;
+  padding-right:15px;
+  padding-top: 10px;
+  color:white;
+}
+#home-jaune{
+  color: #cfa205;
+}
+header{
+
+  height: 320px;
+  background-color: black;
+  color : #cfa205;
+  text-align: center;
+  padding: 50px;
+}
+
+header .fa-circle {
+  font-size: 8px;
+  padding-bottom: 5px;
+}
+
+header h1{
+  font-size: 133px;
+}
+.font-size{
+  font-size: 18px;
+  padding-top: 20px;
+  
+}
