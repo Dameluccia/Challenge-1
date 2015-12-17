@@ -9,10 +9,14 @@
 .clear{
   clear: both;
 }
+body{
+  background-image: url(images/bg.jpg);
+}
 main{
   width: 1020px;
   margin: auto;
   font-family: "Josefin Sans", Bitter;
+  background-color: white;
 }
 nav{
     text-align: center;
@@ -40,7 +44,12 @@ header{
 
 header .fa-circle {
   font-size: 8px;
-  padding-bottom: 5px;
+  margin-top: 3px;
+  vertical-align: top;
+  color: #cfa205;
+}
+section ul .fa-circle-o{
+  font-size: 30px;
 }
 
 header h1{
@@ -49,5 +58,62 @@ header h1{
 .font-size{
   font-size: 18px;
   padding-top: 20px;
-  
+
+}
+.facebook{
+  background-color : #e8e8e8;
+  height : 60px;
+  text-align: center;
+}
+i{
+  color : #9e9e9e;
+
+}
+
+section li{
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 9px;
+  padding-right: 10px;
+}
+
+.texte{
+  width: 900px;
+  height: 90px;
+  padding-top: 25px;
+  text-align: center;
+  margin: auto;
+  border-bottom: 1px solid #e8e8e8;
+  color : #9e9e9e;
+  font-size: 18px;
+
+}
+
+.div1{
+  width: 260px;
+  height: 195px;
+}
+.div2{
+  width: 260px;
+  height: 480px;
+  padding-top: 30px;
+}
+article{
+  float: left;
+  margin-top: 60px;
+}
+.article2{
+  margin-left:55px;
+  margin-right: 55px;
+}
+.touslesarticles{
+  width: 900px;
+  margin: auto;
+}
+
+article p{
+  color : #9e9e9e;
+}
+article h3{
+  padding-bottom: 15px;
 }
