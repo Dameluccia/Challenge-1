@@ -23,7 +23,7 @@ nav{
     background-color: black;
 }
 nav li{
-
+ font-weight: bolder;
   list-style-type: none;
   display: inline-block;
   padding-right:15px;
@@ -34,17 +34,24 @@ nav li{
   color: #cfa205;
 }
 header{
-
   height: 320px;
   background-color: black;
   color : #cfa205;
   text-align: center;
-  padding: 50px;
+  padding-top: 55px;
+  /*padding: 50px;*/
 }
-
+header h1{
+  font-size: 133px;
+  font-weight: lighter;
+}
+header h3{
+  font-weight: bolder;
+  font-family: "Bitter";
+}
 header .fa-circle {
   font-size: 8px;
-  margin-top: 3px;
+  margin-top: 5px;
   vertical-align: top;
   color: #cfa205;
 }
@@ -52,12 +59,11 @@ section ul .fa-circle-o{
   font-size: 30px;
 }
 
-header h1{
-  font-size: 133px;
-}
+
+
 .font-size{
   font-size: 18px;
-  padding-top: 20px;
+  padding-top: 40px;
 
 }
 .facebook{
@@ -69,36 +75,47 @@ i{
   color : #9e9e9e;
 
 }
+p{
+  line-height: 160%;
+}
 
 section li{
   list-style-type: none;
   display: inline-block;
   margin-top: 9px;
-  padding-right: 10px;
+
 }
 
 .texte{
   width: 900px;
   height: 90px;
-  padding-top: 25px;
   text-align: center;
   margin: auto;
-  border-bottom: 1px solid #e8e8e8;
-  color : #9e9e9e;
+  font-weight: bolder;
+  color : #7a7a7a;
   font-size: 18px;
+  font-family: "Bitter";
+  padding: 40px 0 40px 0;
+  margin-bottom: 30px;
 
+}
+.hr{
+    border-bottom: 1px solid #e8e8e8;
+    padding-top: 60px;
+    width: 900px;
+    margin: auto;
 }
 
 .div1{
   width: 260px;
-  height: 195px;
 }
 .div2{
   width: 260px;
-  height: 480px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 article{
+
   float: left;
   margin-top: 60px;
 }
@@ -107,8 +124,11 @@ article{
   margin-right: 55px;
 }
 .touslesarticles{
+
   width: 900px;
   margin: auto;
+  font-weight: bolder;
+
 }
 
 article p{
